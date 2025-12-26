@@ -307,6 +307,10 @@ export const Navbar = ({ active }) => {
               </Link>
             </MenuItem>
             <MenuItem style={{ fontSize: '13px', fontFamily: 'Poppins' }}>
+                {settingsIcon}
+                <span style={{ marginLeft: '12px' }}><a href="https://www.chess.com/" target="_blank">Play chess</a></span>
+            </MenuItem>
+            <MenuItem style={{ fontSize: '13px', fontFamily: 'Poppins' }}>
               {switchAccountIcon}
               <span style={{ marginLeft: '12px' }}>Switch accounts</span>
             </MenuItem>

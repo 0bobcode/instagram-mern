@@ -5,7 +5,8 @@
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 999;;
+    z-index: 999;
+    ;
 }
 
 .icons {
@@ -16,7 +17,8 @@
     align-items: center;
 }
 .logo{
-    width: 28%;
+    height: 80px;
+    cursor: pointer;
 }
 
 .search {
